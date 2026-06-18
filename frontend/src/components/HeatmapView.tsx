@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { getHeatmapData, getTrackedPages } from '../lib/api';
 import type { HeatmapResponse } from '../lib/api';
 

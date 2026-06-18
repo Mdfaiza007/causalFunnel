@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getSessions, getSessionEvents } from '../lib/api';
 import type { Session, TrackedEvent } from '../lib/api';
 
