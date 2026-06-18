@@ -207,12 +207,12 @@ export default function App() {
           <pre className="bg-[#0c0e1b] p-4 rounded-xl border border-white/5 overflow-x-auto text-[11px] font-mono text-indigo-300">
 {`<!-- CausalFunnel Event Tracker script -->
 <script 
-  src="http://localhost:5000/tracker/tracker.js" 
-  data-api-url="http://localhost:5000"
+  src="https://causalfunnel-lm4v.onrender.com/tracker/tracker.js" 
+  data-api-url="https://causalfunnel-lm4v.onrender.com"
 ></script>`}
           </pre>
           <p className="text-[11px] text-[#9ca3af]">
-            💡 <b>Note:</b> You can open <code>http://localhost:5000/tracker/demo.html</code> directly in your browser to generate mock session events and observe live coordinates updates on this dashboard.
+            💡 <b>Note:</b> You can open <code>https://causalfunnel-lm4v.onrender.com/tracker/demo.html</code> directly in your browser to generate mock session events and observe live coordinates updates on this dashboard.
           </p>
         </div>
       </main>
