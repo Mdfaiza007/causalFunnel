@@ -219,7 +219,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-8 text-center text-xs text-[#9ca3af] mt-12">
-        <p>© 2026 Md Faizan. Built with React, Node.js & MongoDB.</p>
+        <p>© 2026 Md Faizan. All Rights Reserved.</p>
       </footer>
     </div>
   );
