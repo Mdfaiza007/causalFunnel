@@ -5,9 +5,8 @@ A full-stack user analytics tracking system that records user sessions (page vie
 ---
 
 ## 🚀 Live Demo
-
-- **Dashboard:** *(Deploy to Vercel — see Hosting section below)*
-- **Demo Tracker Page:** `http://localhost:5000/tracker/demo.html` (local)
+- **Dashboard:** https://causal-funnel-theta.vercel.app
+- **Demo Tracker Page:** https://causalfunnel-lm4v.onrender.com/tracker/demo.html
 
 ---
 
