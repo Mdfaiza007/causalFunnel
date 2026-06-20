@@ -122,7 +122,6 @@ Start the Vite dev server:
 npm run dev
 ```
 
-✅ Frontend dashboard runs on **`http://localhost:5173`**
 
 ---
 
@@ -141,30 +140,9 @@ npm run dev
 
 ---
 
-## 🌐 Hosting (Optional)
 
-### Backend → Render
 
-1. Push code to GitHub.
-2. Go to [render.com](https://render.com) → **New Web Service** → connect your repo.
-3. Set:
-   - **Root Directory:** `backend`
-   - **Build Command:** `npm install`
-   - **Start Command:** `node server.js`
-4. Add Environment Variables:
-   - `MONGODB_URI` = your Atlas connection string
-   - `NODE_ENV` = `production`
-5. Deploy. You'll get a URL like `https://causalfunnel-api.onrender.com`.
 
-### Frontend → Vercel
-
-1. Go to [vercel.com](https://vercel.com) → **New Project** → connect your repo.
-2. Set:
-   - **Root Directory:** `frontend`
-   - **Framework:** Vite
-3. Add Environment Variable:
-   - `VITE_API_URL` = your Render backend URL
-4. Deploy.
 
 ### Tracker Script (on any page)
 
